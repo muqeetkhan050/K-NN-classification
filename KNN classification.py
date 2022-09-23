@@ -18,7 +18,7 @@ y=data.iloc[:,4].values
 #splitting dataset into test set
 from sklearn.model_selection import train_test_split
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.25,random_state=0)
-
+#important
 #feature scalling
 from sklearn.preprocessing import StandardScaler
 sc=StandardScaler()
